@@ -269,31 +269,18 @@ p {
   fill: var(--accent-color);
 }
 
-.modal__checkbox-btn {
+.modal--button {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   color: var(--main-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0.06em;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-  cursor: pointer;
-  border-radius: 4px;
-  border: none;
-  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__checkbox-btn:hover,
-.modal__checkbox-btn:focus {
+.modal--button:hover,
+.modal--button:focus {
   background-color: var(--hover-color);
 }
 
@@ -342,13 +329,8 @@ p {
   border-radius: 2px;
 }
 
-.nav__logo {
+.nav--logo {
   color: var(--title-text-color);
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.17;
   margin-right: 93px;
   display: flex;
 }
@@ -451,29 +433,16 @@ p {
   margin-right: auto;
 }
 
-.hero__button {
+.hero--button {
   color: var(--main-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0.06em;
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-  cursor: pointer;
-  border-radius: 4px;
-  border: none;
-  background-color: var(--accent-color);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: #2196f3;
+.hero--button:hover,
+.hero--button:focus {
+  background-color: var(--hover-color);
 }
 
 .current-button {
@@ -774,24 +743,16 @@ section.work {
   align-items: baseline;
 }
 
-.footer__logo {
+.footer--logo {
   display: flex;
   color: var(--main-color);
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.17;
-  margin-right: 0px;
 }
 
 .footer__adress {
-  /*display: flex;*/
   margin-top: 20px;
 }
 
 .footer__card {
-  /*display: flex;*/
   flex-direction: column;
 }
 
@@ -1097,13 +1058,28 @@ section.work {
 }
 
 /*Компоненти Кнопки та Лінки*/
-/*Button модальне вікно*/
-/*Button стиль ГЕГОЙ*/
-/*Button стиль Футер*/
-/*Button Другої сторінки*/
-/*Link головний блок*/
-/*Link стиль Особливості*/
-/*Link стиль Команда*/
-/* Link стиль Постійні клієнти*/
-/*Link стиль Футер*/
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--accent-color);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*Компоненти Logo*/
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.17;
+}
 /*# sourceMappingURL=main.css.map */

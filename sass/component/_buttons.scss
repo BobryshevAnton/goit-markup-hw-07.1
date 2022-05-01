@@ -1,23 +1,17 @@
-/*Button модальне вікно*/
+.button {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.06em;
 
-/*Button стиль ГЕГОЙ*/
+   padding-left: 32px;
+   padding-right: 32px;
+   cursor: pointer;
+   border-radius: 4px;
+   border: none;
+   background-color: var(--accent-color);
 
-
-/*Button стиль Футер*/
-
-/*Button Другої сторінки*/
-
-
-
-
-/*Link головний блок*/
-
-
-/*Link стиль Особливості*/
-
-/*Link стиль Команда*/
-
-
-/* Link стиль Постійні клієнти*/
-
-/*Link стиль Футер*/
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
