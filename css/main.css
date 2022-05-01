@@ -1,25 +1,29 @@
 @charset "UTF-8";
-/*компоненти root*/
+/*
+
 :root {
-  /*колір головний*/
+ 
   --main-text-color: #757575;
-  /*колір заголовків*/
+
   --title-text-color: #212121;
-  /*колір білий текст*/
+ 
   --main-color: #FFFFFF;
-  /*колір акценту кнопок*/
+  
   --accent-color: #2196F3;
   --hover-color: #188CE8;
-  /*колір акценту кнопок*/
+ 
   --accent-second-color: #F5F4FA;
-  /*колір тексту футера*/
+  
   --footer-color: rgba(255, 255, 255, 0.6);
-  /*колір фону сірої секцій*/
+  
   --grey-color: #2F303A;
-  /*колір фону білої секцій*/
+
   --main-color: #FFFFFF;
 }
 
+*/
+
+/*
 .page {
   color: var(--main-text-color);
   background-color: var(--main-color);
@@ -74,10 +78,11 @@ h3,
 p {
   margin: 0;
 }
-
+*/
 /*компоненти першої сторінки*/
 /*Модальне вікно*/
 /*модальне вікно*/
+/*
 .backdrop {
   position: fixed;
   top: 0;
@@ -283,9 +288,10 @@ p {
 .modal--button:focus {
   background-color: var(--hover-color);
 }
-
+*/
 /*секция хедер*/
 /*головний блок*/
+/*
 .section.header {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -400,9 +406,10 @@ p {
 .header__link:hover .header__icon {
   fill: var(--accent-color);
 }
-
+*/
 /*секция герой*/
 /*стиль ГЕГОЙ*/
+/*
 .herostyle {
   background-color: var(--grey-color);
   text-align: center;
@@ -449,9 +456,10 @@ p {
   color: var(--main-color);
   background-color: var(--accent-color);
 }
-
+*/
 /*секция особливості*/
 /*стиль Особливості*/
+/*
 .galary__card {
   display: flex;
   flex-wrap: wrap;
@@ -500,10 +508,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*секция галерея*/
-/*стиль Галерея*/
+}*/
+/*
 section.work {
   padding-top: 0px;
 }
@@ -519,8 +525,10 @@ section.work {
 
 .work__card {
   display: flex;
-  /*flex-wrap: wrap;*/
+
 }
+*/
+/*
 
 .work__img {
   margin-right: 30px;
@@ -550,9 +558,10 @@ section.work {
   bottom: 0;
   left: 0;
 }
-
+*/
 /*секция команда*/
 /*стиль Команда*/
+/*
 .section.team {
   background-color: var(--accent-second-color);
   text-align: center;
@@ -669,9 +678,10 @@ section.work {
 .team__socials:focus .team__icon {
   fill: var(--main-color);
 }
-
+*/
 /*секция постіні клієнти*/
 /*стиль Постійні клієнти*/
+/*
 .section.client {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -728,9 +738,10 @@ section.work {
 .client__link:hover .client__icon {
   fill: var(--accent-color);
 }
-
+*/
 /*секция футер*/
 /*стиль Футер*/
+/*
 .section.footer {
   background-color: var(--grey-color);
   padding-top: 60px;
@@ -847,8 +858,9 @@ section.work {
   top: 38px;
   right: 28px;
 }
-
+*/
 /*стиль Подпишися*/
+/*
 .footer__subscription {
   margin-left: 93px;
   display: flex;
@@ -906,8 +918,9 @@ section.work {
 .footer__form-btn:focus {
   background-color: #188ce8;
 }
-
+*/
 /*компоненти другої сторінки*/
+/*
 .content__list:not(:last-child) {
   margin-right: 10px;
 }
@@ -952,17 +965,19 @@ section.work {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+*/
 /* стиль ПОРТФОЛІО-------------------------------*/
+/*
 .section.content {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+*/
 /*
 .content__menu-card {
    display: flex;
 }*/
+/*
 .content__menu {
   display: flex;
   flex-wrap: wrap;
@@ -1056,8 +1071,9 @@ section.work {
   transform: translateY(0%);
   opacity: 1;
 }
-
+*/
 /*Компоненти Кнопки та Лінки*/
+/*
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -1082,4 +1098,5 @@ section.work {
   font-size: 32px;
   line-height: 1.17;
 }
-/*# sourceMappingURL=main.css.map */
+
+*/

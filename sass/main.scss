@@ -28,7 +28,10 @@
 
 
 /*Компоненти Кнопки та Лінки*/
-@import"./component/buttons";
+@import"./vendors.scss/buttons";
 
 /*Компоненти Logo*/
-@import"./component/logo";
+@import"./vendors.scss/logo";
+
+/*Компоненти Icon*/
+@import"./vendors.scss/_icon.scs";

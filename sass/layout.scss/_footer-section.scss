@@ -99,9 +99,17 @@
    margin-right: 0px;
 }
 
-.footer__tags-logo {
+/*
+.footer__tags-icon {
    display: flex;
    fill: #FFFFFF;
+
+}*/
+
+
+.footer__tags-logo {
+   display: flex;
+
 
    width: 44px;
    height: 44px;
@@ -119,6 +127,7 @@
    background-color: var(--accent-color);
 
 }
+
 
 .footer__form-icon {
    fill: var(--main-color);
