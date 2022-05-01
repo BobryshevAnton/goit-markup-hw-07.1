@@ -644,7 +644,7 @@ section.work {
 }
 
 .team__socials:hover, .team__socials:focus {
-  background-color: var(--accent-color);
+  background-color: var(--hover-color);
 }
 
 .team__socials:hover .team__icon,
