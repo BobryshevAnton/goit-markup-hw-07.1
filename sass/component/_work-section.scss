@@ -22,10 +22,11 @@ section.work {
 .work__img {
    margin-right: 30px;
    position: relative;
-}
 
-.work__img:last-child {
-   margin-right: 0px;
+
+   &:last-child {
+      margin-right: 0px;
+   }
 }
 
 .work__pict {
