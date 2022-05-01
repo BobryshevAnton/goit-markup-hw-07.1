@@ -1,0 +1,67 @@
+/*стиль ГЕГОЙ*/
+
+.herostyle {
+   background-color: var(--grey-color);
+   text-align: center
+}
+
+.hero__title {
+   width: 696px;
+   color: var(--main-color);
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.section.herostyle {
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+
+.background-hero {
+   max-width: 1600px;
+   background-image: linear-gradient(to top,
+         rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)),
+      url(../../img/icon/general-img.jpg);
+
+   background-repeat: no-repeat;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.hero__button {
+   color: var(--main-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.06em;
+
+   margin-top: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 32px;
+   padding-right: 32px;
+   cursor: pointer;
+   border-radius: 4px;
+   border: none;
+   background-color: var(--accent-color);
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+   background-color: rgba(33, 150, 243, 1);
+}
+
+.current-button {
+   color: var(--main-color);
+   background-color: var(--accent-color);
+}

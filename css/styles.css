@@ -1,25 +1,27 @@
+/*
 :root {
-   /*колір головний*/
+  
    --main-text-color: #757575;
-   /*колір заголовків*/
+  
    --title-text-color: #212121;
-   /*колір білий текст*/
+  
    --main-color: #FFFFFF;
 
-   /*колір акценту кнопок*/
+   
    --accent-color: #2196F3;
    --hover-color: #188CE8;
-   /*колір акценту кнопок*/
+   
    --accent-second-color: #F5F4FA;
-   /*колір тексту футера*/
+  
    --footer-color: rgba(255, 255, 255, 0.6);
 
-   /*колір фону сірої секцій*/
+   
    --grey-color: #2F303A;
-   /*колір фону білої секцій*/
+   
    --main-color: #FFFFFF;
 }
-
+*/
+/*
 *,
 ::before,
 ::after {
@@ -48,17 +50,18 @@ h2,
 h3,
 p {
    margin: 0;
-}
-
+}*/
+/*
 .container {
    width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
    margin-right: auto;
-}
+}*/
 
 /*МОДАЛЬНОЕ ОКНО-*/
+/*
 .backdrop {
    position: fixed;
    top: 0;
@@ -301,10 +304,10 @@ p {
 .checkbox:checked+.checkbox-pro {
    background-color: #2196F3;
    border-color: transparent;
-}
+}*/
 
 /* стиль загальний -------------------------------------*/
-.page {
+/*.page {
    color: var(--main-text-color);
    background-color: var(--main-color);
    font-family: "Roboto", serif;
@@ -320,17 +323,17 @@ p {
    position: fixed;
    transform: scale(0);
 }
-
-
+*/
+/*
 .section {
    padding-top: 94px;
    padding-bottom: 94px;
-}
+}*/
 
 /* стиль хедера-------------------------------------*/
 
 /*головний блок*/
-
+/*
 .section.header {
    padding-top: 0px;
    padding-bottom: 0px;
@@ -388,7 +391,7 @@ p {
 
    background-color: var(--accent-color);
    border-radius: 2px;
-}*/
+}
 
 .current {
    color: var(--accent-color);
@@ -481,13 +484,13 @@ p {
 
 }
 
-
+*/
 /* стиль ХЕДЕРА}-------------------------------------*/
 
 
 /* стиль ГЕГОЙ-------------------------------------*/
 
-
+/*
 .herostyle {
    background-color: var(--grey-color);
    text-align: center
@@ -560,12 +563,12 @@ p {
    color: var(--main-color);
    background-color: var(--accent-color);
 }
-
+*/
 /* стиль ГЕГОЙ-------------------------------------*/
 
 /* стиль Особливості-------------------------------------*/
 
-
+/*
 .galery-special {
    display: flex;
    flex-wrap: wrap;
@@ -574,7 +577,7 @@ p {
 /*.special {
    background-color: grey;
 }*/
-
+/*
 .subtitle-list {
    width: 270px;
    margin-right: 30px;
@@ -626,12 +629,12 @@ p {
 
 }
 
-
+*/
 /* стиль Особливості-------------------------------------*/
 
 
 /* стиль Галерея-------------------------------------*/
-
+/*
 section.work {
    padding-top: 0px;
 }
@@ -649,9 +652,9 @@ section.work {
 
 .work-title-img {
    display: flex;
-   /*flex-wrap: wrap;*/
+   /*flex-wrap: wrap;
 }
-
+/*
 .work-img {
    margin-right: 30px;
    position: relative;
@@ -682,11 +685,11 @@ section.work {
    bottom: 0;
    left: 0;
 }
-
+*/
 /* стиль Галерея-------------------------------------*/
 
 /* стиль Команда-------------------------------------*/
-
+/*
 .section.team {
    background-color: var(--accent-second-color);
    text-align: center;
@@ -817,11 +820,11 @@ section.work {
 
 }
 
-
+*/
 /* стиль Команда-------------------------------------*/
 
 /* стиль Постійні клієнти--------------------------*/
-
+/*
 
 .section.client {
    padding-top: 94px;
@@ -887,8 +890,9 @@ section.work {
    fill: var(--accent-color);
 
 }
-
+*/
 /* стиль Футер-------------------------------------*/
+/*
 .section.footer {
    background-color: var(--grey-color);
    padding-top: 60px;
@@ -915,14 +919,15 @@ section.work {
    line-height: 1.17;
    margin-right: 0px;
 }
-
+*/
+/*
 .adress-title {
-   /*display: flex;*/
+  
    margin-top: 20px;
 }
 
 .adress-list {
-   /*display: flex;*/
+
    flex-direction: column;
 }
 
@@ -1020,7 +1025,7 @@ section.work {
 
 }
 
-/*стиль Подпишися-------------*/
+
 .subscription {
    margin-left: 93px;
    display: flex;
@@ -1101,10 +1106,10 @@ section.work {
    top: 38px;
    right: 28px;
 }
-
+*/
 /* стиль Кнопки другої сторінки-------------------------*/
-
-
+/* стиль ПОРТФОЛІО-------------------------------*/
+/*
 .btn-menu {
    display: flex;
    flex-direction: row;
@@ -1153,7 +1158,7 @@ section.work {
 
 }
 
-/* стиль ПОРТФОЛІО-------------------------------*/
+
 
 .section.content {
    padding-top: 94px;
@@ -1270,4 +1275,4 @@ section.work {
    transform: translateY(0%);
    opacity: 1;
 
-}
+}*/
