@@ -18,4 +18,17 @@
    --grey-color: #2F303A;
    /*колір фону білої секцій*/
    --main-color: #FFFFFF;
+
+   .page {
+      color: var(--main-text-color);
+      background-color: var(--main-color);
+      font-family: "Roboto", serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      position: static;
+   }
+
 }

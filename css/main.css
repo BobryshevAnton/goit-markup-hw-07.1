@@ -20,7 +20,7 @@
   --main-color: #FFFFFF;
 }
 
-.page {
+:root .page {
   color: var(--main-text-color);
   background-color: var(--main-color);
   font-family: "Roboto", serif;
@@ -399,7 +399,7 @@ p {
 
 .background-hero {
   max-width: 1600px;
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/icon/general-img.jpg);
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/icon/general-img.jpg);
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
