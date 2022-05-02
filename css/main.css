@@ -872,7 +872,7 @@ section.work {
   margin-right: 10px;
 }
 
-.content__card {
+.content__cards {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
