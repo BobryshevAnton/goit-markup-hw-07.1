@@ -1,15 +1,15 @@
 /*компоненти root*/
-@import"./utils.scss/root-colors";
+@import"./utils/root-colors";
 
-@import"./base.scss/base";
-@import"./base.scss/reset";
+@import"./base/base";
+@import"./base/reset";
 
 
 /*компоненти першої сторінки*/
 /*Модальне вікно*/
 @import"./component/modal-window";
 /*секция хедер*/
-@import"./layout.scss/heder-section";
+@import"./layout/heder-section";
 /*секция герой*/
 @import"./component/hero-section";
 /*секция особливості*/
@@ -21,17 +21,17 @@
 /*секция постіні клієнти*/
 @import"./component/client-section";
 /*секция футер*/
-@import"./layout.scss/footer-section";
+@import"./layout/footer-section";
 
 /*компоненти другої сторінки*/
 @import"./component/content-section";
 
 
 /*Компоненти Кнопки та Лінки*/
-@import"./vendors.scss/buttons";
+@import"./component/buttons";
 
 /*Компоненти Logo*/
-@import"./vendors.scss/logo";
+@import"./component/logo";
 
 /*Компоненти Icon*/
-@import"./vendors.scss/icon";
+@import"./component/icon";
