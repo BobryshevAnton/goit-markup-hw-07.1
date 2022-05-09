@@ -1,18 +1,15 @@
 /*головний блок*/
 
-.header {
+.header__conteiner {
+   display: flex;
+   align-items: center;
    font-weight: 500;
    line-height: 1.17;
    letter-spacing: 0.02em;
 
    background-color: var(--main-color);
    border-bottom: 1px solid #ECECEC;
-   display: flex;
-}
 
-.header__conteiner {
-   display: flex;
-   align-items: center;
 }
 
 .nav {

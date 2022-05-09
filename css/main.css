@@ -272,18 +272,14 @@ p {
 
 /*секция хедер*/
 /*головний блок*/
-.header {
+.header__conteiner {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
   background-color: var(--main-color);
   border-bottom: 1px solid #ECECEC;
-  display: flex;
-}
-
-.header__conteiner {
-  display: flex;
-  align-items: center;
 }
 
 .nav {
@@ -379,9 +375,19 @@ p {
 
 /*секция герой*/
 /*стиль ГЕГОЙ*/
-.herostyle {
+.section.herostyle {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--grey-color);
   text-align: center;
+}
+
+.background-hero {
+  max-width: 1600px;
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/icon/general-img.jpg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__title {
@@ -394,19 +400,6 @@ p {
   letter-spacing: 0.06em;
   margin-right: auto;
   margin-left: auto;
-}
-
-.section.herostyle {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.background-hero {
-  max-width: 1600px;
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/icon/general-img.jpg);
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero--button {
@@ -427,6 +420,10 @@ p {
 
 /*секция особливості*/
 /*стиль Особливості*/
+.hero {
+  display: block;
+}
+
 .galery__card {
   display: flex;
   flex-wrap: wrap;
